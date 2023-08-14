@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+  <style>
+    html, body {
+  overflow-x: hidden;
+}
+    body {
+      color: #fff;
+    }
+    
+    body {
+    cursor: url('path/to/your-icon.png'), auto;
+  }
+
+    .carousel-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .carousel-caption h3 {
+      font-size: 30px;
+    }
+
+    .carousel-caption p {
+      font-size: 18px;
+    }
+
+    .special-image {
+      /* Add specific styles for special images */
+      border: 2px solid red;
+      border-radius: 10px;
+    }
+
+    .card {
+      width: 100%;
+      height: 0;
+      padding-top: 100%;
+      position: relative;
+      border-radius: 5px;
+      margin-bottom: 20px; /* Add space between the cards */
+      overflow: hidden; /* Hide any overflowing content */
+    }
+
+    .card img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .card-body {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      margin-bottom: 10px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+    }
+  </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7333271446914331"
+crossorigin="anonymous"></script>
+  <script>
+    // Function to generate a random color
+    function getRandomColor() {
+      var letters = "0123456789ABCDEF";
+      var color = "#";
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    // Set a random background color on page load
+    window.addEventListener("load", function () {
+      var body = document.querySelector("body");
+      body.style.backgroundColor = getRandomColor();
+    });
+
+    
+  </script>
+</head>
+
+<body>
+
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="index.html">OZONE</div></a>
+      <!---
+      <div class="search-container">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
+      </div>
+      -->
+    </div>
+  </nav>
+
+  <div id="sidebar" class="sidebar">
+    <div class="close-btn" onclick="closeSidebar()" >&times;</div>
+    <ul>
+      <li><a href="index.html" target="_blank">Home</a></li>
+      <li><a href="movie.html">Movies</a></li>
+      <li><a href="series.html">Series</a></li>
+      <li><a href="anime.html">Anime</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div>
+
+  </div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7333271446914331"
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+<body>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://wallpaperaccess.com/full/7922497.jpg" class="d-block w-100" alt="Image 1">
+        <a href=""></a>
+        <div class="carousel-caption">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h3>Pushpa 2022</h3>
+          <p>Only For South Indian Fans.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://wallpaperaccess.com/full/9357923.jpg"  class="d-block w-100 special-image" alt="Image 2">
+        <div class="carousel-caption">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <a href="#">
+            <h3>Farzi 2023</h3>
+          </a>
+          <p>Only for Bollywood Fans.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.veoh.com/watch/v142255722P48St8dC"><img src="https://wallpaperaccess.com/full/5288569.jpg" class="d-block w-100 special-image" alt="Image 3"></a>
+        <div class="carousel-caption">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <a href="">
+            <h3>Iron Man 2008</h3>
+          </a>
+          <p>Only For Robert Drowny Jr fans.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+  <style>
+    .carousel-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+
+    .carousel-caption h3 {
+      font-size: 30px;
+    }
+
+    .carousel-caption p {
+      font-size: 18px;
+    }
+
+    .special-image {
+      /* Add specific styles for special images */
+      border: 2px solid red;
+      border-radius: 10px;
+    }
+  </style>
+
+
+  <script src="bootstrap.min.js"></script>
+</body>
+
+<br>
+<br>
+<body>
+  <style>
+    .card {
+      width: 100%;
+      height: 0;
+      padding-top: 100%;
+      position: relative;
+      border-radius: 5;
+      margin-bottom: 20px; /* Add space between the cards */
+      overflow: hidden; /* Hide any overflowing content */
+    }
+  
+    .card img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    .card-body {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .card-text {
+      margin-bottom: 10px;
+    }
+  
+    .btn-primary {
+      display: inline-block;
+    }
+  </style>
+  
+  <div class="row">
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://gumlet.assettype.com/saamtv%2F2023-04%2Fde2c4cc5-27a8-411e-8eea-29ebf3b30ae9%2FVidyut_Jammwal_Film_IB71_Trailer_Out.jpg?format=auto" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">IB 71</h5>
+            <p class="card-text">Indian intelligence officers embark on a high-stakes mission to counter two enemy nations' conspiracy. If things go sideways, they must think on their feet to avoid a disaster.</p>
+            <a href="https://dgdrive.xyz/e9t5t31mjjx2" class="btn btn-primary" target="_blank">Download Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/6QJQysiUxKc/maxresdefault.jpg" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">The Night Manager</h5>
+            <p class="card-text">The Night Manager is a Hindi-language crime thriller television series created by Sandeep Modi, which serves as a remake of the British television series The Night Manager based on the John Le Carre's novel of the same name.</p>
+            <a href="https://dgdrive.xyz/3orv67t02r8y" class="btn btn-primary" target="_blank">Download Now</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+   
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAY3NEEcdyk9xbinmK_PgI0zX5otw3-xkTmvvDHSHoN1Q6MrYk" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Dil Bechara</h5>
+          <p class="card-text">While struggling to survive, Manny and Kizie, who each have a terminal illness, fall in love with each other. Thereafter, the two try to spend the rest of their days being happy and staying positive.</p>
+          <a href="https://vimeo.com/846330009?share=copy" class="btn btn-primary" target="_blank">Watch Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <img src="https://www.koimoi.com/wp-content/new-galleries/2020/08/youth-drama-college-romance-to-be-back-with-season-two-0001.jpg" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">College Romance</h5>
+          <p class="card-text">Three best friends look for love, laughs and some lifelong memories while attending college together.</p>
+          <a href="https://dgdrive.xyz/rbj5v5g969f2" class="btn btn-primary" target="_blank">Download Now</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <img src="https://www.thefilmik.com/wp-content/uploads/2023/07/Mission-Impossible-7.webp" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Mission impossible 7</h5>
+          <p class="card-text">Ethan Hunt and the IMF team must track down a terrifying new weapon that threatens all of humanity if it falls into the wrong hands. With control of the future and the fate of the world at stake, a deadly race around the globe begins.</p>
+          <a href="https://dgdrive.xyz/liua1r67w20g" class="btn btn-primary" target="_blank">Download Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Farzi.jpeg" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Farzi</h5>
+          <p class="card-text">Sunny, a brilliant small-time artist is propelled into the high-stakes world of counterfeiting when he creates the perfect fake currency note.</p>
+          <a href="https://dgdrive.xyz/p5mrlsodr879" target="_blank" class="btn btn-primary" >Download Now</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfBsJnWMSk716p9HN_K8eqgNMpoiq2koPWy8pSgHUmj4JbwAd4" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Pushpa Part-1</h5>
+          <p class="card-text">A labourer named Pushpa makes enemies as he rises in the world of red sandalwood smuggling. However, violence erupts when the police attempt to bring down his illegal business.</p>
+          <a href="https://dgdrive.xyz/zn4bflwr6kej" class="btn btn-primary" target="_blank">Download Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <img src="https://thepcis.thegreatdebatersmovie.com/1666402036548.jpg" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Iron Man</h5>
+          <p class="card-text">When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.</p>
+          <a href="https://dgdrive.xyz/kocbi50zvafo" class="btn btn-primary" target="_blank">Download Now</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  
+</body>
+
+
+
+<!--------------
+<body>
+  <div class="card" style="width: 18rem;">
+    <img src="https://wallpaperaccess.com/full/5288569.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+</body>
+
+------------>
+
+
+</html>
